@@ -30,7 +30,7 @@ $(document).ready(function(){
     read.click(function(){
         read.css("display", "none");
         complete =$('#complete')
-        complete.css("display", "inline-block");
+        complete.css("display", "inline");
     });
 
     // slide-up script
