@@ -145,7 +145,7 @@ section .title {
 
 .navbar.sticky {
   padding: 15px 0;
-  background: linear-gradient(rgb(11, 56, 61), rgb(35, 190, 152));
+  background: rgb(35, 190, 152);
 }
 .navbar .max-width {
   display: flex;
@@ -812,5 +812,23 @@ footer span a:hover {
   }
   .about .about-content .right .text {
     font-size: 19px;
+  }
+}
+@media (max-width: 412px) {
+  .home .home-content .text-2 {
+    font-size: 40px;
+  }
+  .home .home-content .text-3 {
+    font-size: 23px;
+  }
+  .about .about-content .right .text {
+    font-size: 19px;
+  }
+  .skills .title::after {
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    font-size: 17px;
+    padding: 5px;
   }
 }
